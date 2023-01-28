@@ -1,0 +1,285 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --primary-white-color: #ffffff;
+  --active-accent-color: #404bbf;
+  --background-button-color: #f4f4fd;
+  --footer-text-color: #e7e9fc;
+}
+
+/* Body */
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.decor {
+  text-decoration: none;
+}
+.nav-title,
+.contacts,
+.work-list,
+.demo-list,
+.team-list,
+.filter,
+.examples {
+  list-style-type: none;
+}
+/* Header */
+/* Navigation */
+/* Logo */
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.logo-text {
+  color: var(--accent-color);
+}
+.footer-logo {
+  color: var(--background-button-color);
+}
+/* Nav-Title */
+.nav-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--active-accent-color);
+}
+.studio {
+  color: var(--active-accent-color);
+}
+.portfolio {
+  color: var(--active-accent-color);
+}
+/* Contacts */
+/* .contacts {
+} */
+.mail {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.tel {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.mail:hover,
+.mail:focus {
+  color: var(--active-accent-color);
+}
+.tel:hover,
+.tel:focus {
+  color: var(--active-accent-color);
+}
+
+/* Main content */
+
+/* .main-title {
+} */
+.hero {
+  background-color: var(--title-text-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-white-color);
+}
+.hero-button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--active-accent-color);
+}
+
+/* Work */
+/* .work {
+} */
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text-color);
+}
+
+.work-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.work-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/* Demonstration */
+/* .demo {
+} */
+
+.demo-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+/* .demo-list {
+} */
+
+/* Team */
+
+.team {
+  background-color: var(--background-button-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+/* .team-list {} */
+.team-container {
+  background-color: var(--primary-white-color);
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.team-text {
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--title-text-color);
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-text-color);
+}
+
+/* Style SCC for Portfolio page */
+
+/* Main Portfolio*/
+
+/* .main-portfolio {
+}
+
+.section-portfolio {
+}
+
+.portfolio-title {
+}
+
+.filter {
+} */
+.filter-button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--background-button-color);
+  cursor: pointer;
+  border: 1px solid var(--background-button-color);
+  border-radius: 4px;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--active-accent-color);
+}
+.all {
+  color: var(--primary-white-color);
+  background-color: var(--active-accent-color);
+}
+/* Examples */
+/*  
+.examples-title {
+}
+ .examples { 
+}
+
+.examples-list {
+}
+*/
+.examples-link {
+  display: block;
+}
+.examples-link:hover,
+.examples-link:focus {
+}
+
+/* .examples-text-container {} */
+
+.examples-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.examples-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
