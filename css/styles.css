@@ -51,6 +51,9 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+.margin {
+  margin-top: 72px;
+}
 /* Img */
 img {
   display: block;
@@ -255,7 +258,6 @@ img {
 
 .demo-list {
   display: flex;
-  margin-top: 72px;
 }
 .demo-li {
   border: 1px solid var(--footer-text-color);
@@ -283,7 +285,6 @@ img {
 
 .team-list {
   display: flex;
-  margin-top: 72px;
 }
 
 .team-li + .team-li {
@@ -402,7 +403,6 @@ img {
 /* Examples */
 
 .examples {
-  margin-top: 72px;
   display: flex;
   flex-wrap: wrap;
   margin-right: -24px;
